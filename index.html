@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM Demo</title>
     <link rel="stylesheet" href="app.css">
+    <script src="app.js"></script>
 </head>
 <body>
     <div class="pagewrapper">
 
         <section class="left">
-
-            <div class="certificate">
-                <span id="name"></span>
-                <span id="info"></span>
+            
+            <div class="certificate" id="certificate">
+                <p class = "title"> Awarded For
+                <span id="nameTag">Test </span>
+                <span id="info">Testing</span> 
+                course completion.
+            </p>
             </div>
 
         </section>
@@ -25,11 +29,12 @@
                 <input type="text" name="name" id="name" placeholder="Name">
         
                 <select name="type" id="type">
-                    <option value="A">A</option>
-                    <option value="B">B</option>
-                    <option value="C">C</option>
-                    <option value="D">D</option>
+                    <option value="HTML">HTML</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="CSS">CSS</option>
                 </select>
+
+                <input type="submit">
         
             </form>
         </section>
